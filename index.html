@@ -1,0 +1,72 @@
+<!--
+Name:   David Piatt
+Class:  CSCI 1145
+Date: 11.04.2020
+ -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    body {
+      background-color: #666666;
+      margin-top: -4px;
+    }
+
+    .container {
+      background-color: #FFFFEE;
+      border: 4px solid black;
+      display: flex;
+      width: 75%;
+      /* justify-content: center; */
+      margin: 0px auto;
+    }
+
+    .row{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+    }
+
+    .col{
+      display: flex;
+      flex-direction: column;
+      flex-basis: 100%;
+      flex:1;
+      justify-content: space-between;
+      padding: 5%;
+    }
+
+    textarea{
+      /* margin-top: 10px; */
+      resize: none;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3>Red Sweatshirt</h3>
+        <form class="" action="index.html" method="post">
+          Size:
+          <select class="" name="">
+            <option>Medium</option>
+          </select>
+          <br>
+          <p></p>
+          <input checked type="checkbox" name="Gift Wrap" value="Giftwrap"> Gift wrap for additional $3.
+          <br>
+          <p>Additional Instructions</p>
+          <textarea name="additional_information" rows="2" cols="28">Please leave on front porch and not at rear porch.</textarea>
+          <br>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
